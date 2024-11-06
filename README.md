@@ -1,22 +1,21 @@
-Simple UI For Anime Ratings Lineaer Regression Model
+## Anime Ratings Linear Regression Model with Simple UI via Docker
 
-( Complete Set of Anime Rating Models Can Be Run in Jupyter Notebook: AnimeRating.ipynb )
+_( Complete Set of Anime Rating Models Can Be Run in Jupyter Notebook: __AnimeRating.ipynb__ )_
 
-Documentation:
+### Documentation:
 
 Install Docker Desktop App - https://www.docker.com
 Create Environment in VS Studio with included Files (file structure)
 
-From Terminal in VS Code Run:
-docker build -t anime_image_name .
-
-From Terminal in VS Code Run:
+- __From Terminal in VS Code Run:__
+docker build -t anime_image_name .  
+- __From Terminal in VS Code Run:__
 docker run --name new_anime_container_name -p 8001:8001 anime_image_name
 
 In Web Browser Navigate to:
 http://localhost:8001/docs
 
-To test model, enter into Post Prediction Request Body on the FastAPI Page:
+To test model, enter the following into Post Prediction Request Body on the FastAPI Page:  
 {"features": [64, 8.0, 1, 0, 1, 103707.0, 14351, 25810, 2656, 86547, 1, 0, 1, 1, 0, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 1, 2]}
 
 The “features” represent an encoded set of 40 features from the anime data set as used by the linear regression model. The table figure below is a sample of what each encoded value represents
