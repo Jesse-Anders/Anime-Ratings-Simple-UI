@@ -1,4 +1,9 @@
+Simple UI For Anime Ratings Lineaer Regression Model
+
+( Complete Set of Anime Rating Models Can Be Run in Jupyter Notebook: AnimeRating.ipynb )
+
 Documentation:
+
 Install Docker Desktop App - https://www.docker.com
 Create Environment in VS Studio with included Files (file structure)
 
